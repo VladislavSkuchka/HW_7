@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:ital,wght@0,400;1,600&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+body {
+    background: #212529;
+}
+
+/* Headers and pharagraphs*/
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 91px;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFB742;
+    padding: 6px 25px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #F5FBF2;
+    font-family: 'Inter';
+    margin-bottom: 14px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 51px;
+}
+
+section {
+    margin-top: 150px;
+}
+
+/* Header section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header,main{
+    padding: 20px 50px;
+}
+
+body a,
+button:hover {
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/cat11.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/cat12.gif"), auto;
+}
+
+nav {
+    width: 32%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li a {
+    transition: all 0.5s;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.nav li a:hover {
+    color: #FFB742;
+}
+
+/* Buttons */
+
+
+.btn button {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFB742;
+    border: 1px solid #FFB742;
+    padding: 12px 26px;
+    background-color: #212529;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.btn button:hover {
+    color: #212529;
+    background-color: #FFB742;
+}
+
+/* Main section */
+
+.greetings {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.orange {
+    color: #FFB742;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.greetings .orange {
+    text-decoration: underline;
+}
+
+.orange img {
+    width: 25px;
+}
+
+.greetings img {
+    margin-top: 20px;
+}
+
+.experianceCards {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.experianceCards .card {
+    padding: 25px 0;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(56, 62, 69, 0.44);
+    transition: all 10s ease-out;
+}
+
+section.experianceCards .card:hover {
+    background: linear-gradient(94.3deg, #FFB742 0%, rgba(255, 123, 66, 0.76) 99.33%);
+
+}
+
+section.experianceCards .card:hover p {
+    color: #212529;
+}
+
+.experianceCards .card .cardText {
+    text-align: center;
+
+}
+
+.experianceCards .smallText {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+/* About Me Section */
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe .aboutMeText {
+    max-width: 680px;
+}
+
+.aboutMe h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutMe p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #D5D5D5;
+    margin-bottom: 55px;
+}
+
+/* Skill section */
+
+.myskils {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skilsText {
+    max-width: 672px;
+}
+
+.skilsText h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+
+.skilsText p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.skilsIcons {
+    max-width: 560px;
+}
+
+.skilsIcons ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skilsIcons ul li {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding: 16px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.skilsIcons ul li:hover {
+    background-color: rgba(255, 183, 66, 0.5);
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/cat11.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/cat12.gif"), auto;
+}
+
+
+/* My works section */
+
+.myWorks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.myWorksText h2 {
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.myWorks ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.myWorks ul li {
+    display: inline;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    transition: all .5s;
+}
+
+.myWorks ul li:hover {
+    background-color: #FFB742;
+    color: #212529;
+}
+
+.workImg {
+    display: flex;
+    flex-direction: column;
+}
+
+.myWorksImgs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.workImg img {
+    margin-bottom: 35px;
+}
+
+/* Testimonial section */
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.testimonialCards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonialCard {
+    background: #FFFFFF;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 380px;
+    padding: 50px 35px;
+    margin-bottom: 220px;
+}
+
+.testimonialCard .rateStar {
+    width: 13px;
+    height: 13px;
+    background: url(../img/Vector.png) no-repeat;
+    display: inline-block;
+}
+
+.testimonialCard p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 22px;
+    margin-bottom: 38px;
+}
+
+.testimonialCard .customerInfo {
+    display: flex;
+    align-items: center;
+}
+
+.testimonialCard .customerInfo p {
+    font-family: 'Poppins';
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.testimonialCard .customerInfo .bold {
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.testimonialCard .customerInfo .customerAvatar {
+    width: 73px;
+    height: 73px;
+    display: inline-block;
+    background: url(../img/33.png) no-repeat;
+    margin-right: 24px;
+}
+
+/* footer section */
+
+footer{
+    position: relative;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 50px;
+    padding-bottom: 60px;
+    background-color: #1C1C1C;
+}
+
+footer .wrapper .socialMedia{
+    max-width: 320px;
+}
+
+footer .wrapper .socialMedia span {
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 32px;
+    color: #D4D4D4;
+}
+
+footer .wrapper .socialMedia p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #7B7B7B;
+    transition: all .5s;
+}
+
+footer .wrapper .socialMedia .dark{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #7B7B7B;
+    transition: all .5s;
+}
+
+footer .wrapper .socialMedia p:hover {
+    color: #FFB742;
+}
+
+footer .wrapper .socialMedia .yellowBold {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFB742;
+    margin-bottom: 30px;
+}
+
+.start{
+    margin: 0;
+    padding: 60px 100px;
+    background: #FFB742;
+    border-radius: 15px;
+    position: absolute;
+    top: -16%;
+    right: 24%;
+}
+
+.start .startInfo{
+    display: flex;
+
+}
+
+.startHeader p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 34.6667px;
+    line-height: 53px;
+}
+
+.startText p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    max-width: 360px;
+    margin: 0 80px;
+}
+
+.startBtn {
+    padding: 12px 40px;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/cat11.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/cat12.gif"), auto;
+    transition: all .5s;
+}
+
+.startBtn:hover{
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, 0.116);
+}
+
+.startBtn p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.start p{
+    color: #000000;
+}
